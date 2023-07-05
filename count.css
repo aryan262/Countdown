@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Launching_page_img/images/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.birth{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 560;
+    margin-left: 21%;
+    padding-top: 5%;
+    font-size: 4vw;
+    color:rgb(7, 157, 100);
+}
+.launch-time{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: space-evenly;
+    position: sticky;
+}
+.launch-time div{
+    flex-basis: 7vw;
+    margin-top: 25vh;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+    margin-bottom: 2.5px;
+}
